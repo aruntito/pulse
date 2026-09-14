@@ -6,6 +6,12 @@
 
 PULSE explores how systems can distinguish meaningful state changes from normal activity and expose the events that deserve attention.
 
+## Why it exists
+
+Complex systems produce enormous amounts of activity. Not every event deserves investigation.
+
+PULSE is the observation edge of the ecosystem: it turns raw signals into **contextual, machine-readable changes** that downstream systems can investigate or act on.
+
 ## What it does
 
 - ingest system signals
@@ -14,6 +20,16 @@ PULSE explores how systems can distinguish meaningful state changes from normal 
 - correlate related activity
 - attach context and confidence
 - emit machine-readable change events
+
+## Use cases
+
+| Use case | Question answered |
+| --- | --- |
+| Change detection | What changed from the expected state? |
+| Monitoring | Which activity is meaningful enough to surface? |
+| Deployment analysis | What changed around a deployment? |
+| Configuration tracking | Which state changes deserve investigation? |
+| Incident triggering | What event should start deeper analysis? |
 
 ## Architecture
 
